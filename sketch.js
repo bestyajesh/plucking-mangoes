@@ -37,7 +37,7 @@ function setup() {
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
 	launcherObject=new launcher(stoneObj.body,{x:235,y:420})
-  var render = Render.create({
+ /* var render = Render.create({
     element: document.body,
     engine: engine,
     options: {
@@ -45,7 +45,7 @@ function setup() {
       height: 600,
       wireframes: false
     }
-  });
+  });*/
 	
 	Engine.run(engine);
  // Render.run(render);
